@@ -14,19 +14,19 @@ M-x taskpaper-mode to activate, or in .emacs:
 for files with .taskpaper extension
 
    Keyboard shortcuts:  
-|Shortcut|Function|  
+| Shortcut | Function |  
 |:--------:|:--------:|    
-|S-return|Focus project under cursor|  
-|S-backspace|Back to all projects|  
-|C-c l|Chose project from list|  
-|C-c d|Toggle done state|  
-|C-c t|Add @due tag for today's date|  
-|C-c a|Move the current task to the Archive project (note, the Archive project must already exist)|  
-|C-c z|Move all tasks tagged with @done to the Archive project (note, the Archive project must already exist)|
+| S-return|Focus project under cursor |  
+| S-backspace|Back to all projects |  
+| C-c l|Chose project from list |  
+| C-c d|Toggle done state |  
+| C-c t|Add @due tag for today's date |  
+| C-c a|Move the current task to the Archive project (note, the Archive project must already exist) |  
+| C-c z|Move all tasks tagged with @done to the Archive project (note, the Archive project must already exist) |
 
 | Shortcut  | Function  |
 |:-:|:-:|
-|   |   |
+| S-return  |   |
 |   |   |
 |   |   |
 |   |   |
