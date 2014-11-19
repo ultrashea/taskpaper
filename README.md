@@ -14,9 +14,9 @@ M-x taskpaper-mode to activate, or in .emacs:
 for files with .taskpaper extension
 
    Keyboard shortcuts:  
-| Shortcut  | Function  |
-|:-:|:-:|
-| S-return  | Focus project under cursor  |
+| Shortcut  | Function  |  
+|:-:|:-:|  
+| S-return  | Focus project under cursor  |  
 
 
 | S-backspace  | Back to all projects  |
