@@ -9,14 +9,14 @@
   (define-key taskpaper-mode-map (kbd "C-c d") 'taskpaper-toggle-done)
   (define-key taskpaper-mode-map (kbd "C-c l") 'taskpaper-chose-project)
   (define-key taskpaper-mode-map (kbd "C-c t") 'taskpaper-due-today)
+  (define-key taskpaper-mode-map (kbd "C-c a") 'taskpaper-archive-current-task)
+  (define-key taskpaper-mode-map (kbd "C-c z") 'taskpaper-archive-all-tasks)
   )
 
 (setq tpKeywords
       '(
         (".*@done.*" . font-lock-warning-face)
         (".*:$" . font-lock-function-name-face)
-        ;("^.*[^:]$" . font-lock-comment-face)
-	; ("^ *[^- ].*[^:]$" . font-lock-comment-face)
         (" @.*" . font-lock-variable-name-face)
         ("^[^ \t-]+.*[^:]$" font-lock-string-face)
         )
