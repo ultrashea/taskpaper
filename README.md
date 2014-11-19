@@ -21,15 +21,6 @@ for files with .taskpaper extension
 | S-backspace  | Back to all projects  |
 | C-c l  | Choose project from list  |
 | C-c d   | Toggle done state of current task  |
-
-| Shortcut  | Function  |  
-|:-:|:-:|  
-| S-return  | Focus project under cursor  |  
-
-
-| S-backspace  | Back to all projects  |
-| C-c l  | Choose project from list  |
-| C-c d  | Toggle done state of current task  |
-| C-c t  | Add @due tag with today's date to current task  |
-| C-c a  | Move the current task to the Archive project (note, the Archive project must already exist)  |
-| C-c z  | Move all tasks tagged with @done to the Archive project (note, the Archive project must already exist)  |
+| C-c t  |  Add @due tag with today's date to current task  |
+| C-c a  |  ove the current task to the Archive project (note, the Archive project must already exist)  |
+| C-c z  |  Move all tasks tagged with @done to the Archive project (note, the Archive project must already exist)  |
