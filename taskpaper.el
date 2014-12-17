@@ -47,7 +47,7 @@
       (search-forward-regexp "^Archive:$")
       (newline)
       (yank)
-; go back to Archive
+; go back to Archive:
 ; Remove multiple tabs
   )
 )
@@ -169,7 +169,7 @@
     (interactive)
     (let ((startpoint (point)) (line (line-number-at-pos)))
       (back-to-indentation)
-      ;(re-search-forward "@done" nil 2)
+      (re-search-forward "@due" nil 2)
       (if (= line (line-number-at-pos))
           (progn
             (end-of-line)

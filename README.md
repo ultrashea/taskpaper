@@ -1,6 +1,8 @@
 taskpaper
 =========
 
+*THE FUNCTION TO MOVE ALL DONE TASKS TO THE ARCHIVE PROJECT IS CURRENTLY HORRIBLY BROKEN -  DO NOT USE SAID FUNCTION*
+
 TaskPaper major mode for emacs.  Based on major mode from https://github.com/jedthehumanoid/taskpaper.el
 
 Put taskpaper.el file somewhere (for instance in ~/emacs.d/taskpaper.el)
@@ -22,5 +24,5 @@ for files with .taskpaper extension
 | C-c l  | Choose project from list  |
 | C-c d   | Toggle done state of current task  |
 | C-c t  |  Add @due tag with today's date to current task  |
-| C-c a  |  ove the current task to the Archive project (note, the Archive project must already exist)  |
+| C-c a  |  Move the current task to the Archive project (note, the Archive project must already exist)  |
 | C-c z  |  Move all tasks tagged with @done to the Archive project (note, the Archive project must already exist)  |
